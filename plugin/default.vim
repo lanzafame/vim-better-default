@@ -149,7 +149,7 @@ set cursorline              " Highlight current line
 set fileformats=unix,dos,mac        " Use Unix as the standard file type
 set number                  " Line numbers on
 set relativenumber          " Relative numbers on
-set fillchars=vert:│,stl:\ ,stlnc:\ 
+set fillchars=vert:│,stl:\ ,stlnc:\
 
 " Annoying temporary files
 set directory=/tmp//,.
@@ -312,6 +312,10 @@ endif
         nnoremap <Leader>wv <C-W>v
         nnoremap <Leader>w\| <C-W>v
         nnoremap <Leader>w2 <C-W>v
+        tnoremap <Leader>wh <C-\><C-N><C-w>h
+        tnoremap <Leader>wj <C-\><C-N><C-w>j
+        tnoremap <Leader>wk <C-\><C-N><C-w>k
+        tnoremap <Leader>wl <C-\><C-N><C-w>l
       endif
     " }
 
