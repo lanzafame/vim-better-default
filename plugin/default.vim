@@ -252,6 +252,7 @@ endif
         nnoremap <Leader>sc :nohlsearch<CR>
         " Toggle pastemode
         nnoremap <Leader>tp :setlocal paste!<CR>
+        nnoremap <Leader>tw :setlocal wrap!<CR>
       endif
     " }
 
